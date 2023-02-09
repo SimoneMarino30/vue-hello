@@ -27,9 +27,10 @@
     <script type="text/javascript" src="./js/main.js" defer></script>
   </head>
 
-  <body>
+  <body class="bg-bluelean">
     <div id="root">
-      <h1 class="container text-center mt-5 fw-bold">{{ message }}</h1>
+      <h1 :class="titleClasses">{{ message }}</h1>
+      <img :src="image" alt="" />
     </div>
   </body>
 </html>

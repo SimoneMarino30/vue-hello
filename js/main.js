@@ -10,6 +10,8 @@ createApp({
   data() {
     return {
       message: "Hello Boolean!",
+      image: "./img/booleanDuck.jpg",
+      titleClasses: "container text-center mt-5 fw-bold text-warning",
     };
   },
 }).mount("#root");
